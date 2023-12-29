@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+.navbar .location-katalog .location,
+.katalog {
+  border-radius: 16px;
+  background: #dfdcf5;
+  padding: 8px 24px;
+  gap: 8px;
+}
+.navbar .location-katalog span,
+#icon {
+  color: #4e40a1;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+}
+.navbar .notification button {
+  border: 0;
+  outline: 0;
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar .notification .shop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.navbar .notification .badge {
+  color: white;
+  border-radius: 3px;
+  background: #4e40a1;
+  top: 5px;
+}
+.navbar .ulList li:not(:first-child) {
+  margin-left: 0;
+  /* margin-right: 0; */
+}
+.navbar .ulList li {
+  margin: 0 20px;
+}
+.navbar .ulList li a {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 400;
+}
